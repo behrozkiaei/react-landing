@@ -43,7 +43,7 @@ export default function Footer() {
   return (
     <>
     <div className="footer-image-box">
-        <img   className="footer-img" src="/images/footer-image.jpg" alt="" />
+        <img   className="footer-img" src="/footer-image.jpg" alt="" />
     </div>
     <div className="footer-wrapper">
       <div className="row-footer">
