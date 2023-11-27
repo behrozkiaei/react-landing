@@ -9,7 +9,7 @@ const Header = () => {
       <div className="header-container">
         <header className="header">
           <div className="logo-container">
-            <img  src="./logo.png" alt="Apex" className="logo" />{" "}
+            <img  src="/logo.png" alt="Apex" className="logo" />{" "}
             <div className="line"></div>
             <h3 className="header-text">Apex Pioneer group</h3>
           </div>

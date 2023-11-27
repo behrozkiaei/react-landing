@@ -12,7 +12,7 @@ export default function DiscoverApex() {
   return (
     <div className="container-discover" ref={ref}>
       <div className="logo-box">
-        <img   src="./logo-white.png" alt="Apex" className="logo" />{" "}
+        <img   src="/logo-white.png" alt="Apex" className="logo" />{" "}
       </div>
       <div className="wrapper-discover">
         <div className="content">

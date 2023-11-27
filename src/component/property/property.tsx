@@ -18,7 +18,7 @@ export default function Property() {
           }}
           className="item"
         >
-          <img  src="./images/paralel1.jpg" alt="" className="property-img" />
+          <img  src="/images/paralel1.jpg" alt="" className="property-img" />
           <div className="p-containet">
             <p>Specializing in dated/distressed propertie</p>
           </div>
@@ -35,7 +35,7 @@ export default function Property() {
           }}
           className="item"
         >
-          <img  src="./images/paralel2.jpg" className="property-img"  alt="" />
+          <img  src="/images/paralel2.jpg" className="property-img"  alt="" />
           <div className="p-containet">
             <p>Willingness to consider properties in any condition</p>
           </div>
