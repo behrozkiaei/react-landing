@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import "./discover-apex.scss";
 import { animate, motion, useInView } from "framer-motion";
-import Image  from "next/image";
+
 export default function DiscoverApex() {
   const ref = useRef(null);
   const isInView = useInView(ref);
@@ -12,7 +12,7 @@ export default function DiscoverApex() {
   return (
     <div className="container-discover" ref={ref}>
       <div className="logo-box">
-        <img   src="/logo-white.png" alt="Apex" className="logo" />{" "}
+        <img   src="./logo-white.png" alt="Apex" className="logo" />{" "}
       </div>
       <div className="wrapper-discover">
         <div className="content">

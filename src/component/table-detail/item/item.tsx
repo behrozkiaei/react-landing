@@ -1,5 +1,5 @@
 import "./item.scss"
-import Image  from "next/image";
+
 type ItemProps = {
     image: string;
     desc: string;

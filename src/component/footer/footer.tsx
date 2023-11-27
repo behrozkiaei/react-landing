@@ -5,7 +5,7 @@ import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import createTheme, { ThemeOptions } from "@mui/material/styles/createTheme";
 import { useState } from "react";
 import "./footer.scss";
-import Image  from "next/image";
+
 
 
 export default function Footer() {
@@ -43,7 +43,7 @@ export default function Footer() {
   return (
     <>
     <div className="footer-image-box">
-        <img   className="footer-img" src="/images/footer-image.jpg" alt="" />
+        <img   className="footer-img" src="./images/footer-image.jpg" alt="" />
     </div>
     <div className="footer-wrapper">
       <div className="row-footer">
