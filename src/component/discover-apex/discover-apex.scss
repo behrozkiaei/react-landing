@@ -1,0 +1,55 @@
+.container-discover{
+    height: 100%;
+    width: 100%;
+    .logo-box {
+        position: absolute;
+        z-index: 5;
+        width: 100%;
+        height: 60%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .logo{
+            opacity: 0.25;
+            width: 140px;
+            height: 140px;
+
+        }
+    }
+    .wrapper-discover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+        // background-color: red;
+        .content{
+            width: 700px;
+            gap:20px ;
+            font-size: 1.2em;
+            line-height: 1.6em;
+            text-align: center;
+            p{
+                margin-top: 30px;
+            }
+        }
+    }
+
+    @media (max-width: 768px) {
+        .wrapper-discover{
+            padding: 60px ;   
+            .content{
+                width: 100%;
+                height: 100%;
+                
+                font-size: 1em;
+                line-height: 1.25em;
+                
+            }
+        }
+    }
+}

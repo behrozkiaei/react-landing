@@ -1,0 +1,126 @@
+.footer-image-box{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    img{
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.footer-copyright{
+    position: absolute;
+    z-index: 6;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: end;
+    align-content: center;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.footer-wrapper{
+    position: absolute;
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    max-width: 1200px;
+    justify-content: center;
+    align-items: center;
+  
+    .row-footer{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+        .left{
+            width: 50%;
+            display: flex;
+            justify-content: start;
+            flex-direction: column;
+            align-items: start;
+            border-right: 1px solid white;
+            padding: 20px;
+            .content{
+                display: flex;
+                flex-direction: column;
+                height: 100%;
+                gap:20px ;
+                p{
+                    font-size: 1.5em;
+                }
+            }
+        }
+        .right{
+            width: 50%;
+            height: 100%;
+            padding-left: 100px;
+            justify-content:start;
+            gap :20px;
+            .form{
+                display: flex;
+                justify-content: start;
+                flex-direction: column;
+                align-items: start;
+                width: 80%;
+                .text-input{
+                    margin-bottom: 30px;
+                    width: 100%;
+                }
+                .button-box{
+                    width: 100%;
+                    display: flex;
+                    justify-content: end;
+                }
+            }
+         
+            
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .footer-wrapper{
+        justify-content: start;
+        margin-top: 100px;
+        .row-footer{
+            flex-direction: column;
+
+            .left{
+                width: 100%; 
+                height:50%;
+                padding: 5px;
+                .content{
+                    height: 100%;
+                    gap:5px ;
+                    p{
+                        font-size: 1em;
+                    }
+                }
+            }
+            .right{
+                margin-top: 50px;
+                width: 100%; 
+                margin-left: unset;
+                padding: 5px;
+                .form{
+                .button-box{
+                    justify-content: start;
+                }
+             }
+            }
+        }
+    }
+
+    .footer-image-box{
+        
+        img{
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
