@@ -5,6 +5,7 @@ import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import createTheme, { ThemeOptions } from "@mui/material/styles/createTheme";
 import { useState } from "react";
 import "./footer.scss";
+import Image  from "next/image";
 
 
 export default function Footer() {
@@ -42,7 +43,7 @@ export default function Footer() {
   return (
     <>
     <div className="footer-image-box">
-        <img src="./images/Footer image.jpg" alt="" />
+        <img   className="footer-img" src="/images/footer-image.jpg" alt="" />
     </div>
     <div className="footer-wrapper">
       <div className="row-footer">
@@ -50,8 +51,8 @@ export default function Footer() {
           <div className="content">
             <p>Feel free to reach out for any inquiries.</p>
             <p>
-              At Apex Pioneer Group, we're always ready to assist you. You can
-              call or text us at (469) 207-1824. We're open to exploring various
+              At Apex Pioneer Group, we`&apos;re always ready to assist you. You can
+              call or text us at (469) 207-1824. We`&apos;re open to exploring various
               opportunities and promise a prompt response, often providing
               answers on the same day.
             </p>

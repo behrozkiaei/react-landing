@@ -11,7 +11,7 @@
         height: 100%;
         width :100%;
         clip-path: polygon(0% 10%, 100% 50%, 100% 100%, 0% 60%);
-        img{
+        .cover-image{
             width :100%;
         }
     }
@@ -36,7 +36,7 @@
     .cover-wrapper{
         .image-box{
             clip-path: unset;
-            img{
+            .cover-image{
                 height: 100%;
                 object-fit: cover;
             }

@@ -22,7 +22,7 @@
             align-items: center;
             // gap: 10px;
             width: 340px;
-            img{
+            .property-img{
                 width:350px;
                 height: 350px;
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -47,7 +47,7 @@
             flex-direction: column;
             padding-top: 5px;
             .item{
-                img{
+                .property-img{
                     width:200px;
                     height: 200px;
                 }

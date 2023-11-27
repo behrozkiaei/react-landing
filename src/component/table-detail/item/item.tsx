@@ -1,4 +1,5 @@
 import "./item.scss"
+import Image  from "next/image";
 type ItemProps = {
     image: string;
     desc: string;
@@ -8,7 +9,7 @@ export default function Item({image, desc, detail}: ItemProps) {
   return (
     <div className="wrapper">
         <div className="image-box">
-            <img src={image} alt={desc} />
+            <img  className="item-image"  src={image} alt={desc} />
         </div>
         <div className="desc">
             <p>{desc}</p>

@@ -6,23 +6,23 @@ import { animate, motion, useInView } from "framer-motion";
 export default function TableDetail() {
   const data = [
     {
-      image: "./icons/Efficient Offer Process.png",
+      image: "/icons/Efficient Offer Process.png",
       desc: "Efficient Offer Process",
       detail: "Same day offers upon receiving property information",
     },
     {
-      image: "./icons/Financial Flexibility.png",
+      image: "/icons/Financial Flexibility.png",
       desc: "Financial Flexibility.png",
       detail: "Cash transactions with no financing contingency",
     },
     {
-      image: "./icons/Speedy Closings.png",
+      image: "/icons/Speedy Closings.png",
       desc: "Ability to close deals in as",
       detail: "little as 7 days",
     },
   ];
   const second = {
-    image: "./icons/Cost Transparency.png",
+    image: "/icons/Cost Transparency.png",
     desc: "Cost Transparency",
     detail: "No fees for sellers, including no buyer's agent commission.",
   };

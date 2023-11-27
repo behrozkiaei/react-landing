@@ -1,12 +1,12 @@
 "use client";
 import "./top.scss";
 import { animate, motion } from "framer-motion";
-
+import Image  from "next/image";
 export default function Top() {
   return (
     <div className="top-container">
       <div className="image-box">
-        <img src="./images/Top-Picture.jpg" alt="" />
+        <img  src="/images/Top-Picture.jpg" alt="" className="top-image"/>
       </div>
       <div className="content-box">
         <div className="content">
